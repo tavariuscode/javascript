@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada On</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tabuada de multiplicação on line! versão 1.0</h1>
+        <p>Fique Craque em Matemática, aprenda a tabuada!<p>
+         
+    </header>
+    <section class="parte1">
+        <div>
+            <p>Escolha um número de 1 a 10: <input type="number" name="num" id="txtn"> 
+                <select name="num" id="seltab2"></select>
+
+            
+                
+            <input type="button" value="Clique para gerar a tabuada" onclick="tabuada()">
+            
+            <input type="button" value="Começar de novo!" onclick="limpar2()"></p>
+            
+
+        </div>
+
+    </section>
+        
+    <section class="parte2">
+        <div>
+            <option>Tabuada de multiplicação do número escolhido:</option>
+            <select name="tabuada" id="seltab" size="10">
+            </select>    
+            
+
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Heder Pinheiro</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
