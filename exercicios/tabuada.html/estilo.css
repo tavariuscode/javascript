@@ -17,9 +17,26 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
-section#div {
-    padding: 5px;
+select#seltab{
+    width: 500px;
+    text-align: center;
    
+}
+
+
+   
+   
+
+
+div select{
+    padding: 20px;
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 5%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12pt;
+    
 }
 
 footer{

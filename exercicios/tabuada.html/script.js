@@ -1,5 +1,5 @@
 var tab = document.getElementById('seltab')
-var num = document.getElementById('seltab2')
+var tab1 = document.getElementById('seltab')
 
 function tabuada(){
     let num = document.getElementById('txtn')
@@ -27,6 +27,6 @@ function limpar(){
 }
 
 function limpar2(){
-    tab.innerHTML = `<option></option>`
+    tab.innerHTML = `<input type="" name="" id="">`
 }
 
